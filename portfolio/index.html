@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ═══════════════════════════════════════════════════════════════
+         🔹 PERSONALIZAR: META TAGS PARA SEO
+         ═══════════════════════════════════════════════════════════════ -->
+    <meta name="description" content="Game developer & Digital artist portfolio: Youtube thumbnails, animation, 2D, 3D. Professional work and creative projects.">
+    <meta name="keywords" content="3D, animation, thumbnails, YouTube, game developer">
+    <meta name="author" content="Miguel Morales">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Game Developer - portfolio">
+    <meta property="og:description" content="Professional Game Developer portfolio">
+    <!-- 🖼️ IMAGEN REQUERIDA: Crea/consigue una imagen para compartir en redes sociales (1200x630px recomendado) -->
+    <meta property="og:image" content="images/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Game Developer - portfolio">
+    <meta property="twitter:description" content="Professional Game Developer portfolio">
+    
+    <!-- 🔹 PERSONALIZAR: Título de la página (aparece en la pestaña del navegador) -->
+    <title>Miguel Morales - Game Developer</title>
+    
+    <!-- Preconnect para fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- Navegación principal -->
+    <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <!-- ═══════════════════════════════════════════════════════════════
+                 🔹 PERSONALIZAR: Tu nombre o marca (aparece en la navegación)
+                 ═══════════════════════════════════════════════════════════════ -->
+            <a href="#home" class="nav-logo" aria-label="Go to home">
+                <span class="logo-text">Miguel Morales</span>
+            </a>
+            
+            <!-- Menú de navegación -->
+            <ul class="nav-menu" role="menubar">
+                <li role="none">
+                    <a href="#home" class="nav-link" role="menuitem">Home</a>
+                </li>
+                <li role="none">
+                    <a href="#about" class="nav-link" role="menuitem">About</a>
+                </li>
+                <li role="none">
+                    <a href="#gallery" class="nav-link" role="menuitem">Portfolio</a>
+                </li>
+                <li role="none">
+                    <a href="#animations" class="nav-link" role="menuitem">Animations</a>
+                </li>
+                <li role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Botón menú móvil (se activará con JS) -->
+            <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         🔹 SECCIÓN HERO - PERSONALIZAR COMPLETAMENTE
+         ═══════════════════════════════════════════════════════════════ -->
+    <section id="home" class="hero-section" role="banner">
+        <div class="hero-container">
+            <div class="hero-content">
+                <!-- 🔹 PERSONALIZAR: Título principal (2 líneas máximo recomendado) -->
+                <h1 class="hero-title">
+                    <span class="title-line">Fullstack Game Developer</span>
+                    <span class="title-line">& Digital Artist</span>
+                </h1>
+                
+                <!-- 🔹 PERSONALIZAR: Tagline / Frase que te identifica (máx 20 palabras) -->
+                <p class="hero-tagline">
+                    Telling stories through art, humor, and play
+                </p>
+                
+                <!-- Botones CTA (opcional personalizar textos) -->
+                <div class="hero-cta">
+                    <a href="#gallery" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact</a>
+                </div>
+            </div>
+            
+            <!-- 🖼️ IMAGEN REQUERIDA: Tu mejor ilustración para hero (recomendado: 1200x800px o similar) -->
+            <!-- Puedes eliminar este div completo si no quieres imagen hero -->
+            <div class="hero-visual">
+                <img src="images/hero-image.jpg" 
+                     alt="Featured artwork" 
+                     class="hero-image"
+                     loading="eager">
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator" aria-hidden="true">
+            <span class="scroll-text">Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         🔹 SECCIÓN SOBRE MÍ - PERSONALIZAR COMPLETAMENTE
+         ═══════════════════════════════════════════════════════════════ -->
+    <section id="about" class="about-section" role="region" aria-labelledby="about-heading">
+        <div class="section-container">
+            <header class="section-header">
+                <h2 id="about-heading" class="section-title">About me</h2>
+                <div class="title-underline"></div>
+            </header>
+            
+            <div class="about-content">
+                <!-- 🖼️ IMAGEN REQUERIDA: Tu foto profesional o avatar (formato cuadrado 800x800px recomendado) -->
+                <div class="about-image-wrapper">
+                    <img src="images/profile-photo.jpg" 
+                         alt="Artist profile photo" 
+                         class="about-image"
+                         loading="lazy">
+                </div>
+                
+                <!-- Texto descriptivo -->
+                <div class="about-text">
+                    <!-- 🔹 PERSONALIZAR: Tu historia profesional (2-3 párrafos, sé auténtico) -->
+                    <div class="about-intro">
+                        <p class="intro-paragraph">
+                            I’m a full-stack game developer and digital artist who creates complete interactive experiences
+                            from concept to final polish. I work across programming, animation, and illustration,
+                            focusing on expressive visuals, strong ideas, and playful experimentation.
+                        </p>
+                    </div>
+                    
+                    <!-- 🔹 PERSONALIZAR: Especialidades (añade/elimina según habilidades) -->
+                    <div class="about-skills">
+                        <h3 class="skills-title">Specialties</h3>
+                        <ul class="skills-list" role="list">
+                            <li class="skill-item">Digital Art</li>
+                            <li class="skill-item">2D/3D Animation</li>
+                            <li class="skill-item">Thumbnails for YouTube</li>
+                            <li class="skill-item">Game Design</li>
+                            <li class="skill-item">Coding</li>
+                            <li class="skill-item">Video Editing</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- 🔹 PERSONALIZAR: Software/herramientas que usas (añade/elimina según uses) -->
+                    <div class="about-tools">
+                        <h3 class="tools-title">Tools</h3>
+                        <ul class="tools-list" role="list">
+                            <!-- Game Engines -->
+                            <li class="tool-item">Unity</li>
+                            <li class="tool-item">Unreal Engine</li>
+                            
+                            <!-- 3D Software -->
+                            <li class="tool-item">Blender</li>
+                            <li class="tool-item">Maya</li>
+                            
+                            <!-- Programming Languages -->
+                            <li class="tool-item">Python</li>
+                            <li class="tool-item">JavaScript</li>
+                            <li class="tool-item">C#</li>
+                            <li class="tool-item">Lua</li>
+                            <li class="tool-item">R</li>
+                            <li class="tool-item">HTML5</li>
+                            
+                            <!-- Development Tools -->
+                            <li class="tool-item">Visual Studio Code</li>
+                            <li class="tool-item">GitHub</li>
+                            <li class="tool-item">Jupyter Notebook</li>
+                            
+                            <!-- Database & Data Tools -->
+                            <li class="tool-item">MySQL</li>
+                            <li class="tool-item">Pandas</li>
+                            <li class="tool-item">Excel</li>
+                            <li class="tool-item">Power BI</li>
+                            <li class="tool-item">Tableau</li>
+                            
+                            <!-- Cloud Platforms -->
+                            <li class="tool-item">Azure</li>
+                            <li class="tool-item">AWS</li>
+                            
+                            <!-- Design & Graphics -->
+                            <li class="tool-item">Adobe Photoshop</li>
+                            <li class="tool-item">Adobe Illustrator</li>
+                            <li class="tool-item">Procreate</li>
+                            
+                            <!-- Video & Audio Editing -->
+                            <li class="tool-item">DaVinci Resolve</li>
+                            <li class="tool-item">Premiere Pro</li>
+                            <li class="tool-item">After Effects</li>
+                            <li class="tool-item">Audition</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <a href="assets/resume.pdf" 
+                           class="btn btn-outline" 
+                           download
+                           aria-label="Download resume PDF">
+                            Download resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Gallery / Portfolio -->
+    <section id="gallery" class="gallery-section" role="region" aria-labelledby="gallery-heading">
+        <div class="section-container">
+            <header class="section-header">
+                <h2 id="gallery-heading" class="section-title">Portfolio</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Some of my work</p>
+            </header>
+            
+            <!-- Filtros de categoría (se activarán con JS) -->
+            <div class="gallery-filters" role="tablist" aria-label="Portfolio filters">
+                <button class="filter-btn active" 
+                        data-filter="all" 
+                        role="tab" 
+                        aria-selected="true"
+                        aria-controls="illustrations-gallery">
+                    All
+                </button>
+                <button class="filter-btn" 
+                        data-filter="illustration" 
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="illustrations-gallery">
+                    Illustrations
+                </button>
+                <button class="filter-btn" 
+                        data-filter="thumbnail" 
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="thumbnails-gallery">
+                    Thumbnails
+                </button>
+            </div>
+            
+            <!-- ═══════════════════════════════════════════════════════════════
+                 🔹 GALERÍA DE ILUSTRACIONES - PERSONALIZAR CADA ITEM
+                 📝 RECOMENDACIÓN: 8-12 ilustraciones máximo (calidad > cantidad)
+                 ═══════════════════════════════════════════════════════════════ -->
+            <div id="illustrations-gallery" class="illustrations-gallery" role="region" aria-label="Illustrations gallery">
+                <h3 class="gallery-subtitle">Illustrations</h3>
+                
+                <div class="gallery-grid illustrations-grid" role="list">
+                    <!-- 🖼️ ILUSTRACIÓN 1: 
+                         - Imagen: images/portfolio/illustration-01.jpg (recomendado: 1200x900px, JPG/WebP)
+                         - Título: Nombre del proyecto
+                         - Categoría: Tipo de trabajo (Ilustración Digital, Concept Art, etc.)
+                         - Año: Año de creación -->
+                    <article class="gallery-item illustration-item" 
+                             data-category="illustration"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/portfolio/illustration-01.JPG" 
+                                 alt="Illustration: DOLOR" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4 class="gallery-item-title">DOLOR</h4>
+                                    <p class="gallery-item-category">Digital Illustration</p>
+                                    <p class="gallery-item-year">2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ ILUSTRACIÓN 2 -->
+                    <article class="gallery-item illustration-item" 
+                             data-category="illustration"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/portfolio/illustration-02.jpg" 
+                                 alt="Illustration: Background_Level_1" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4 class="gallery-item-title">Background_Level_1</h4>
+                                    <p class="gallery-item-category">Background for game</p>
+                                    <p class="gallery-item-year">2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ ILUSTRACIÓN 3 -->
+                    <article class="gallery-item illustration-item" 
+                             data-category="illustration"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/portfolio/illustration-03.jpg" 
+                                 alt="Illustration: Character Illustrations for game" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4 class="gallery-item-title">Character Ilustrations for game</h4>
+                                    <p class="gallery-item-category">Character Design</p>
+                                    <p class="gallery-item-year">2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ ILUSTRACIÓN 4 -->
+                    <article class="gallery-item illustration-item" 
+                             data-category="illustration"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/portfolio/illustration-04.jpg" 
+                                 alt="Illustration: Cave" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4 class="gallery-item-title">Cave</h4>
+                                    <p class="gallery-item-category">Background for game</p>
+                                    <p class="gallery-item-year">2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ ILUSTRACIÓN 5 -->
+                    <article class="gallery-item illustration-item" 
+                             data-category="illustration"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/portfolio/illustration-05.jpg" 
+                                 alt="Illustration: Into the VOID" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4 class="gallery-item-title">Into the VOID</h4>
+                                    <p class="gallery-item-category">Background for game</p>
+                                    <p class="gallery-item-year">2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ ILUSTRACIÓN 6 -->
+                    <!-- 📝 NOTA: Puedes eliminar items que no necesites o duplicar este bloque para agregar más -->
+                    <article class="gallery-item illustration-item" 
+                             data-category="illustration"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/portfolio/illustration-06.jpg" 
+                                 alt="Illustration: Door" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4 class="gallery-item-title">Door</h4>
+                                    <p class="gallery-item-category">Background for game</p>
+                                    <p class="gallery-item-year">2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <!-- ═══════════════════════════════════════════════════════════════
+                 🔹 GALERÍA DE THUMBNAILS - PERSONALIZAR CADA ITEM
+                 📝 RECOMENDACIÓN: 12-16 thumbnails máximo (calidad > cantidad)
+                 ═══════════════════════════════════════════════════════════════ -->
+            <div id="thumbnails-gallery" class="thumbnails-gallery" role="region" aria-label="YouTube thumbnails gallery">
+                <h3 class="gallery-subtitle">YouTube Thumbnails</h3>
+                
+                <div class="gallery-grid thumbnails-grid" role="list">
+                    <!-- 🖼️ THUMBNAIL 1: 
+                         - Imagen: images/thumbnails/thumb-01.jpg (formato YouTube: 1280x720px, JPG/WebP)
+                         - Título: Nombre del video o proyecto -->
+                    <article class="gallery-item thumbnail-item" 
+                             data-category="thumbnail"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/thumbnails/thumb-01.jpg" 
+                                 alt="YouTube thumbnail 1" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay thumbnail-overlay">
+                                <div class="overlay-content">
+                                    <span class="platform-badge">YouTube</span>
+                                    <h4 class="gallery-item-title"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ THUMBNAIL 2 -->
+                    <article class="gallery-item thumbnail-item" 
+                             data-category="thumbnail"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/thumbnails/thumb-02.jpg" 
+                                 alt="YouTube thumbnail 2" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay thumbnail-overlay">
+                                <div class="overlay-content">
+                                    <span class="platform-badge">YouTube</span>
+                                    <h4 class="gallery-item-title"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ THUMBNAIL 3 -->
+                    <article class="gallery-item thumbnail-item" 
+                             data-category="thumbnail"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/thumbnails/thumb-03.jpg" 
+                                 alt="YouTube thumbnail 3" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay thumbnail-overlay">
+                                <div class="overlay-content">
+                                    <span class="platform-badge">YouTube</span>
+                                    <h4 class="gallery-item-title"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ THUMBNAIL 4 -->
+                    <article class="gallery-item thumbnail-item" 
+                             data-category="thumbnail"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/thumbnails/thumb-04.jpg" 
+                                 alt="YouTube thumbnail 4" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay thumbnail-overlay">
+                                <div class="overlay-content">
+                                    <span class="platform-badge">YouTube</span>
+                                    <h4 class="gallery-item-title"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ THUMBNAIL 5 -->
+                    <article class="gallery-item thumbnail-item" 
+                             data-category="thumbnail"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/thumbnails/thumb-05.jpg" 
+                                 alt="YouTube thumbnail 5" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay thumbnail-overlay">
+                                <div class="overlay-content">
+                                    <span class="platform-badge">YouTube</span>
+                                    <h4 class="gallery-item-title"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ THUMBNAIL 6 -->
+                    <article class="gallery-item thumbnail-item" 
+                             data-category="thumbnail"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/thumbnails/thumb-06.jpg" 
+                                 alt="YouTube thumbnail 6" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay thumbnail-overlay">
+                                <div class="overlay-content">
+                                    <span class="platform-badge">YouTube</span>
+                                    <h4 class="gallery-item-title"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ THUMBNAIL 7 -->
+                    <!-- 📝 NOTA: Puedes eliminar items que no necesites o duplicar este bloque para agregar más -->
+                    <article class="gallery-item thumbnail-item" 
+                             data-category="thumbnail"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/thumbnails/thumb-07.jpg" 
+                                 alt="YouTube thumbnail 7" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay thumbnail-overlay">
+                                <div class="overlay-content">
+                                    <span class="platform-badge">YouTube</span>
+                                    <h4 class="gallery-item-title"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 🖼️ THUMBNAIL 8 -->
+                    <article class="gallery-item thumbnail-item" 
+                             data-category="thumbnail"
+                             role="listitem"
+                             tabindex="0">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/thumbnails/thumb-08.jpg" 
+                                 alt="YouTube thumbnail 8" 
+                                 class="gallery-image"
+                                 loading="lazy">
+                            <div class="gallery-overlay thumbnail-overlay">
+                                <div class="overlay-content">
+                                    <span class="platform-badge">YouTube</span>
+                                    <h4 class="gallery-item-title"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Animaciones -->
+    <section id="animations" class="animations-section" role="region" aria-labelledby="animations-heading">
+        <div class="section-container">
+            <header class="section-header">
+                <h2 id="animations-heading" class="section-title">Animations</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Animations and Motion Graphics 3D</p>
+            </header>
+            
+            <!-- ═══════════════════════════════════════════════════════════════
+                 🔹 VIDEOS DE YOUTUBE - PERSONALIZAR CADA VIDEO
+                 ═══════════════════════════════════════════════════════════════ -->
+            <div class="animations-youtube" role="region" aria-label="YouTube animations">
+                <h3 class="animations-subtitle">YouTube</h3>
+                
+                <div class="videos-grid youtube-grid" role="list">
+                    <!-- 🎬 VIDEO YOUTUBE 1:
+                         - Thumbnail: images/videos/youtube-thumb-01.jpg (1280x720px)
+                         - Título: Nombre del video
+                         - Descripción: Breve descripción del proyecto
+                         - Duración: Tiempo del video (ej: 2:30)
+                         - URL: Link completo de YouTube (reemplaza VIDEO_ID_1 con el ID real) -->
+                    <article class="video-card youtube-card" role="listitem">
+                        <div class="video-wrapper">
+                            <div class="video-thumbnail-wrapper">
+                                <img src="images/videos/youtube-thumb-01.jpg" 
+                                     alt="The Binding of Isaac… pero con un poder de One Piece roto" 
+                                     class="video-thumbnail"
+                                     loading="lazy">
+                                <div class="video-overlay">
+                                    <span class="play-icon" aria-hidden="true">▶</span>
+                                    <span class="platform-label">YouTube</span>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h4 class="video-title">The Binding of Isaac… pero con un poder de One Piece roto</h4>
+                                <p class="video-description">A short animated video where Isaac acquires the protagonist’s devil fruit from One Piece, temporarily gaining its powers.
+                                    The project plays with crossover humor, visual exaggeration, and expressive animation to deliver a punchy, comedic moment.</p>
+                                <p class="video-duration">Duration: 0:33</p>
+                            </div>
+                            <!-- 🔹 PERSONALIZAR: URL del video de YouTube -->
+                            <a href="https://www.youtube.com/watch?v=c__gRJB9dWk" 
+                               class="video-link" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Watch video on YouTube">
+                                Watch on YouTube
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- 🎬 VIDEO YOUTUBE 2 -->
+                    <article class="video-card youtube-card" role="listitem">
+                        <div class="video-wrapper">
+                            <div class="video-thumbnail-wrapper">
+                                <img src="images/videos/youtube-thumb-02.jpg" 
+                                     alt="Video preview: Pig" 
+                                     class="video-thumbnail"
+                                     loading="lazy">
+                                <div class="video-overlay">
+                                    <span class="play-icon" aria-hidden="true">▶</span>
+                                    <span class="platform-label">YouTube</span>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h4 class="video-title">Pig</h4>
+                                <p class="video-description">A looping 3D animation depicting an infinite factory dedicated to the production of piggy banks.
+                                    Designed as a calming visual, the project focuses on repetition, smooth motion, and a soothing, meditative rhythm.</p>
+                                <p class="video-duration">Duration: 0:04</p>
+                            </div>
+                            <a href="https://www.youtube.com/shorts/IHDlm9F4MJU" 
+                               class="video-link" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Watch video on YouTube">
+                                Watch on YouTube
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- 🎬 VIDEO YOUTUBE 3 -->
+                    <!-- 📝 NOTA: Puedes eliminar videos que no tengas o duplicar este bloque para agregar más -->
+                    <article class="video-card youtube-card" role="listitem">
+                        <div class="video-wrapper">
+                            <div class="video-thumbnail-wrapper">
+                                <img src="images/videos/youtube-thumb-03.jpg" 
+                                     alt="Video preview: 7 Things I Wish I Knew | The Binding of Isaac: Repentance" 
+                                     class="video-thumbnail"
+                                     loading="lazy">
+                                <div class="video-overlay">
+                                    <span class="play-icon" aria-hidden="true">▶</span>
+                                    <span class="platform-label">YouTube</span>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h4 class="video-title">7 Things I Wish I Knew | The Binding of Isaac: Repentance</h4>
+                                <p class="video-description">A short-form video titled "7 Things I Wish I Knew | The Binding of Isaac: Repentance", focused on practical tips to improve gameplay.
+                                    The project combines clear explanations, visual examples, and concise editing to help players progress more effectively.</p>
+                                <p class="video-duration">Duration: 3:39</p>
+                            </div>
+                            <a href="https://youtu.be/Sh18OoF_ZiE" 
+                               class="video-link" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Watch video on YouTube">
+                                Watch on YouTube
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <!-- ═══════════════════════════════════════════════════════════════
+                 🔹 VIDEOS DE TIKTOK - PERSONALIZAR CADA VIDEO
+                 ═══════════════════════════════════════════════════════════════ -->
+            <div class="animations-tiktok" role="region" aria-label="TikTok animations">
+                <h3 class="animations-subtitle">TikTok</h3>
+                
+                <div class="videos-grid tiktok-grid" role="list">
+                    <!-- 🎬 VIDEO TIKTOK 1:
+                         - Thumbnail: images/videos/tiktok-thumb-01.jpg (formato vertical TikTok: 1080x1920px)
+                         - Título: Nombre del video
+                         - Descripción: Breve descripción
+                         - Duración: Tiempo del video
+                         - URL: Link completo de TikTok (reemplaza @usuario y VIDEO_ID_1) -->
+                    <article class="video-card tiktok-card" role="listitem">
+                        <div class="video-wrapper">
+                            <div class="video-thumbnail-wrapper">
+                                <img src="images/videos/tiktok-thumb-01.jpg" 
+                                     alt="TikTok video preview: Who wins: A GORILLA or 100 ISAACS?" 
+                                     class="video-thumbnail"
+                                     loading="lazy">
+                                <div class="video-overlay">
+                                    <span class="play-icon" aria-hidden="true">▶</span>
+                                    <span class="platform-label">TikTok</span>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h4 class="video-title">Who wins: A GORILLA or 100 ISAACS? 🦍⚔️ | The Binding of Isaac Animation</h4>
+                                <p class="video-description">An original animation inspired by the "100 men vs 1 gorilla" trend, combining a caricatured visual style with photographic elements.
+                                    It aims for comedy through exaggerated contrasts and a sudden shift in tone to surprise the viewer.</p>
+                                <p class="video-duration">Duration: 0:41</p>
+                            </div>
+                            <!-- 🔹 PERSONALIZAR: URL del video de TikTok (reemplaza @usuario con tu usuario real) -->
+                            <a href="https://www.tiktok.com/@esekodrilo/video/7501070872782884102" 
+                               class="video-link" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Watch video on TikTok">
+                                Watch on TikTok
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- 🎬 VIDEO TIKTOK 2 -->
+                    <article class="video-card tiktok-card" role="listitem">
+                        <div class="video-wrapper">
+                            <div class="video-thumbnail-wrapper">
+                                <img src="images/videos/tiktok-thumb-02.jpg" 
+                                     alt="TikTok video preview: Mini Isaac" 
+                                     class="video-thumbnail"
+                                     loading="lazy">
+                                <div class="video-overlay">
+                                    <span class="play-icon" aria-hidden="true">▶</span>
+                                    <span class="platform-label">TikTok</span>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h4 class="video-title">Mini Isaac :)</h4>
+                                <p class="video-description">An original animation based on a perspective-driven trend where camera angles create the illusion of carrying someone through the air.
+                                    The humor comes from subverting the trend's cute tone, as Isaac's head visibly deforms, making the moment intentionally uncomfortable and absurd.</p>
+                                <p class="video-duration">Duration: 0:05</p>
+                            </div>
+                            <a href="https://www.tiktok.com/@esekodrilo/video/7591993731167931659" 
+                               class="video-link" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Watch video on TikTok">
+                                Watch on TikTok
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- 🎬 VIDEO TIKTOK 3 -->
+                    <!-- 📝 NOTA: Puedes eliminar videos que no tengas o duplicar este bloque para agregar más -->
+                    <article class="video-card tiktok-card" role="listitem">
+                        <div class="video-wrapper">
+                            <div class="video-thumbnail-wrapper">
+                                <img src="images/videos/tiktok-thumb-03.jpg" 
+                                     alt="TikTok video preview: A TIER 4 IN ISAAC" 
+                                     class="video-thumbnail"
+                                     loading="lazy">
+                                <div class="video-overlay">
+                                    <span class="play-icon" aria-hidden="true">▶</span>
+                                    <span class="platform-label">TikTok</span>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h4 class="video-title">A TIER 4 IN ISAAC</h4>
+                                <p class="video-description">A short rotoscoped animation following a dance trend, featuring multiple characters from The Binding of Isaac.
+                                    The project focuses on translating real movement into stylized animation while keeping a playful, rhythmic tone.</p>
+                                <p class="video-duration">Duration: 0:17</p>
+                            </div>
+                            <a href="https://www.tiktok.com/@esekodrilo/video/7507432033665158456" 
+                               class="video-link" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Watch video on TikTok">
+                                Watch on TikTok
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         🔹 SECCIÓN CONTACTO - PERSONALIZAR TODOS LOS DATOS
+         ═══════════════════════════════════════════════════════════════ -->
+    <section id="contact" class="contact-section" role="region" aria-labelledby="contact-heading">
+        <div class="section-container">
+            <header class="section-header">
+                    <h2 id="contact-heading" class="section-title">Contact</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Have a project in mind? Let's talk</p>
+            </header>
+            
+            <div class="contact-content">
+                <!-- Información de contacto -->
+                <div class="contact-info">
+                    <!-- 🔹 Texto introductorio de contacto -->
+                    <div class="contact-intro">
+                        <p class="contact-text">
+                            I'm available for freelance projects, creative collaborations, and 
+                            professional opportunities. Feel free to reach out.
+                        </p>
+                    </div>
+                    
+                    <!-- 🔹 Datos de contacto -->
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">✉</span>
+                            <a href="mailto:mcastro.mangel@gmail.com" class="contact-link">
+                                mcastro.mangel@gmail.com
+                            </a>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">📱</span>
+                            <!-- 🔹 PERSONALIZAR: Tu teléfono (opcional, puedes eliminar este div si no quieres mostrarlo) -->
+                            <a href="tel:+1234567890" class="contact-link">
+                                +52 (414) 279-2246
+                            </a>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">📍</span>
+                            <!-- 🔹 PERSONALIZAR: Tu ubicación (opcional, puedes eliminar este div si no quieres mostrarlo) -->
+                            <span class="contact-text">Querétaro, México</span>
+                        </div>
+                    </div>
+                    
+                    <!-- 🔹 PERSONALIZAR: Tu disponibilidad -->
+                    <div class="contact-availability">
+                        <p class="availability-text">
+                            <strong>Availability:</strong> Open to freelance and full time
+                        </p>
+                    </div>
+                    
+                    <!-- 🔹 Redes sociales -->
+                    <div class="contact-social">
+                        <h3 class="social-title">Follow me</h3>
+                        <ul class="social-links" role="list">
+                            <li role="listitem">
+                                <a href="https://www.linkedin.com/in/mcastro-mangel" 
+                                   class="social-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   aria-label="LinkedIn profile">
+                                    <span class="social-icon" aria-hidden="true">💼</span>
+                                    <span class="social-name">LinkedIn</span>
+                                </a>
+                            </li>
+                            <li role="listitem">
+                                <a href="mailto:mcastro.mangel@gmail.com" 
+                                   class="social-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   aria-label="Send email">
+                                    <span class="social-icon" aria-hidden="true">✉</span>
+                                    <span class="social-name">Gmail</span>
+                                </a>
+                            </li>
+                            <li role="listitem">
+                                <a href="https://linktr.ee/Mike_04" 
+                                   class="social-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   aria-label="Linktree profile">
+                                    <span class="social-icon" aria-hidden="true">🔗</span>
+                                    <span class="social-name">Linktree</span>
+                                </a>
+                            </li>
+                            <li role="listitem">
+                                <a href="https://www.youtube.com/@Esekodrilo" 
+                                   class="social-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   aria-label="YouTube channel Esekodrilo">
+                                    <span class="social-icon" aria-hidden="true">▶</span>
+                                    <span class="social-name">YouTube Gaming Channel</span>
+                                </a>
+                            </li>
+                            <li role="listitem">
+                                <a href="https://www.youtube.com/@3D_Motion_Labs" 
+                                   class="social-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   aria-label="YouTube channel 3D Motion Labs">
+                                    <span class="social-icon" aria-hidden="true">🎬</span>
+                                    <span class="social-name">3D Motion Labs</span>
+                                </a>
+                            </li>
+                            <li role="listitem">
+                                <a href="https://www.tiktok.com/@esekodrilo" 
+                                   class="social-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   aria-label="TikTok profile">
+                                    <span class="social-icon" aria-hidden="true">🎵</span>
+                                    <span class="social-name">TikTok</span>
+                                </a>
+                            </li>
+                            <li role="listitem">
+                                <a href="https://github.com/Skmzbk" 
+                                   class="social-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   aria-label="GitHub profile">
+                                    <span class="social-icon" aria-hidden="true">💻</span>
+                                    <span class="social-name">GitHub</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Formulario de contacto -->
+                <form class="contact-form" 
+                      action="https://formspree.io/f/mwpryazw" 
+                      method="POST" 
+                      novalidate
+                      aria-labelledby="contact-heading">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name *</label>
+                        <input type="text" 
+                               id="name" 
+                               name="name" 
+                               class="form-input" 
+                               required
+                               aria-required="true"
+                               aria-describedby="name-error">
+                        <span class="form-error" id="name-error" role="alert"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" 
+                               id="email" 
+                               name="email" 
+                               class="form-input" 
+                               required
+                               aria-required="true"
+                               aria-describedby="email-error">
+                        <span class="form-error" id="email-error" role="alert"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject *</label>
+                        <input type="text" 
+                               id="subject" 
+                               name="subject" 
+                               class="form-input" 
+                               required
+                               aria-required="true"
+                               aria-describedby="subject-error">
+                        <span class="form-error" id="subject-error" role="alert"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message*</label>
+                        <textarea id="message" 
+                                  name="message" 
+                                  class="form-textarea" 
+                                  rows="6" 
+                                  required
+                                  aria-required="true"
+                                  aria-describedby="message-error"></textarea>
+                        <span class="form-error" id="message-error" role="alert"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary form-submit">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- ═══════════════════════════════════════════════════════════════
+                     🔹 PERSONALIZAR: Tu nombre en el footer (se actualiza automáticamente el año con JS)
+                     ═══════════════════════════════════════════════════════════════ -->
+                <div class="footer-copyright">
+                    <p>&copy; <span id="current-year">2024</span> Miguel Morales. All rights reserved.</p>
+                </div>
+                
+                <!-- Links adicionales -->
+                <nav class="footer-nav" aria-label="Footer links">
+                    <ul class="footer-links" role="list">
+                        <li role="listitem">
+                            <a href="#home" class="footer-link">Home</a>
+                        </li>
+                        <li role="listitem">
+                            <a href="#about" class="footer-link">About me</a>
+                        </li>
+                        <li role="listitem">
+                            <a href="#gallery" class="footer-link">Portfolio</a>
+                        </li>
+                        <li role="listitem">
+                            <a href="#contact" class="footer-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- Mensaje final -->
+            <div class="footer-message">
+                <p>Made with <span class="heart" aria-hidden="true">❤️</span> and dedication</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js" defer></script>
+    
+</body>
+</html>
+
